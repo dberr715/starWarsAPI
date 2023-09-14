@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://static7.depositphotos.com/1222912/788/i/450/depositphotos_7887354-stock-photo-stars-background-01.jpg");
+    color: white;
+}
+p {
+    background-color: rgba(246, 237, 74, 0.85);
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+h1 {
+
+    font-size: 55px;
+    text-align: center;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(241, 241, 230, 0.25);
+}
+
+select{
+    font-size: 25px ;
+    background-color: rgba(246, 237, 74, 0.85);
+    display:block;
+    margin: 0 auto;
+}
