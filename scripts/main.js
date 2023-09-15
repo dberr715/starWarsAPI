@@ -24,26 +24,26 @@ console.log((random))
         // console.log(data);
         return data;
     })
-    fetch('https://swapi.dev/api/starships/')
-    .then(function(response){
-        return response.json();
-    })
-    .then(function(data){
-       function wantStarship(starship, element2) {
-element2.innerText = starship;
-};
-        wantStarship(data.results[notZero].name, swInfo2);
-        return data;
+//     fetch('https://swapi.dev/api/starships/')
+//     .then(function(response){
+//         return response.json();
+//     })
+//     .then(function(data){
+//        function wantStarship(starship, element2) {
+// element2.innerText = starship;
+// };
+//         wantStarship(data.results[notZero].name, swInfo2);
+//         return data;
 
-    })
-    const starshipUrl = 'https://swapi.dev/api/starships/';
+//     })
+//     const starshipUrl = 'https://swapi.dev/api/starships/';
 
-    get(starshipUrl).then(function (response) {
-        console.log("Starship LIST:", response.results);
-        makeListOfShips(response.results.map(x => {
-            console.log(x.name);
-            return x.name;
-   }));
+//     get(starshipUrl).then(function (response) {
+//         console.log("Starship LIST:", response.results);
+//         makeListOfShips(response.results.map(x => {
+//             console.log(x.name);
+//             return x.name;
+//    }));
 
 
 
@@ -59,4 +59,4 @@ element2.innerText = starship;
     })
 }
     });
-})
+
