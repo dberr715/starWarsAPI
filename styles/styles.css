@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://static7.depositphotos.com/1222912/788/i/450/depositphotos_7887354-stock-photo-stars-background-01.jpg");
+    background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
     color: white;
 }
 p {
@@ -7,11 +7,12 @@ p {
     font-size: 35px;
     text-align: center;
     color: black;
+    /* width: 400px; */
 }
 h1 {
 
     font-size: 55px;
-    text-align: center;
+
 }
 h3{
     font-size: 45px;
@@ -20,8 +21,54 @@ h3{
 }
 
 select{
-    font-size: 25px ;
-    background-color: rgba(246, 237, 74, 0.85);
+    font-size: 35px ;
+    background-color:  rgba(246, 237, 74, 0.85);
+
     display:block;
     margin: 0 auto;
 }
+
+button {
+    font-size: 25px ;
+    background-color: rgba(138, 141, 231, 0.85);
+    display:block;
+    margin: 0 auto;
+    color:white;
+    box-shadow: 8px 8px 2px 1px rgba(246, 237, 74, 0.85);
+}
+
+#passengerCount {
+    display:grid;
+    max-width: 400px;
+    font-size: 25px ;
+    background-color: rgba(138, 141, 231, 0.522);
+    display:block;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+}
+#passengerCountBox {
+    display:grid;
+    max-width: 400px;
+    font-size: 25px ;
+    background-color: rgba(138, 141, 231, 0.85);
+    display:block;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 45%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
